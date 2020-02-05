@@ -2,9 +2,8 @@ package com.example.cmput301_lab04;
 
 public class Circle extends Shape
 {
-    public Circle(int x, int y)
+    public Circle(int x, int y, String color)
     {
-        String color = "magenta";
-        super(x,y);
+        super(x,y,"magenta");
     }
 }
